@@ -2,7 +2,12 @@ public abstract class AbstractBalance : IBalance
 {
     public virtual int Balance { get; protected set; }
 
-    public virtual void CalculateBalance(List<Task> tasks, AbstractBalance ba)
+    /// <summary>
+    /// Calculates the balance by performing multiple deposit and withdraw operations concurrently.
+    /// </summary>
+    /// <param name="tasks">The list of tasks to add the operations to.</param>
+    /// <param name="account">The account to perform the operations on.</param>
+    public virtual void CalculateBalance(List<Task> tasks, AbstractBalance account)
     {
         for (int i = 0; i < 10; i++)
         {
@@ -22,11 +27,6 @@ public abstract class AbstractBalance : IBalance
                 }
             }));
         }
-
-        Task.WaitAll(tasks.ToArray());
-        Console.WriteLine($"Final balance is {Balance}. Calculated using {GetType().Name}");
-        Deposit(100);
-        Deposit(100);
     }
 
     public abstract void Deposit(int amount);

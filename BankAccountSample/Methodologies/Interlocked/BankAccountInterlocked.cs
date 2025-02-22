@@ -5,8 +5,8 @@ namespace BankAccountSamples
         private int balance;
         public override int Balance
         {
-            get { return balance; }
-            protected set { balance = value; }
+            get { return Interlocked.CompareExchange(ref balance, 0, 0); }
+            protected set { Interlocked.Exchange(ref balance, value); }
         }
 
         public override void Deposit(int amount)

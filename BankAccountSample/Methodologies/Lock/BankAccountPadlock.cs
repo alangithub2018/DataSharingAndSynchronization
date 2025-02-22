@@ -2,7 +2,7 @@ namespace BankAccountSamples
 {
     public class BankAccountPadlock : AbstractBalance
     {
-        public object padlock = new object();
+        private readonly object padlock = new object();
         public override int Balance { get; protected set; }
 
         public override void Deposit(int amount)

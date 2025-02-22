@@ -4,17 +4,19 @@ namespace BankAccountSamples
 {
     public static class Program
     {
-        public static void Main()
+        public static async Task Main()
+        {
+            await RunCalculationsAsync(new BankAccountWrongBalance());
+            await RunCalculationsAsync(new BankAccountPadlock());
+            await RunCalculationsAsync(new BankAccountInterlocked());
+        }
+
+        private static async Task RunCalculationsAsync(AbstractBalance account)
         {
             var tasks = new List<Task>();
-            AbstractBalance ba = new BankAccountWrongBalance();
-            ba.CalculateBalance(tasks, ba);
-
-            ba = new BankAccountPadlock();
-            ba.CalculateBalance(tasks, ba);
-
-            ba = new BankAccountInterlocked();
-            ba.CalculateBalance(tasks, ba);
+            account.CalculateBalance(tasks, account);
+            await Task.WhenAll(tasks);
+            Console.WriteLine($"Final Balance for: {account.GetType().Name} is {account.Balance}");
         }
     }
 }
