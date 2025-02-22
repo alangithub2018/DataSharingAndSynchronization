@@ -1,6 +1,6 @@
-namespace BankAccountSamples
+namespace BankAccountSample.Methodologies.Wrong
 {
-    public class BankAccount : AbstractBalance
+    public class BankAccountWrongBalance : AbstractBalance
     {
         public override int Balance { get; protected set; }
 
