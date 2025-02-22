@@ -1,0 +1,15 @@
+C:\Users\maste\Documents\Concurrency\DataSharingAndSynchronization\BankAccountSample\bin\Debug\net9.0\BankAccountSample.exe
+C:\Users\maste\Documents\Concurrency\DataSharingAndSynchronization\BankAccountSample\bin\Debug\net9.0\BankAccountSample.deps.json
+C:\Users\maste\Documents\Concurrency\DataSharingAndSynchronization\BankAccountSample\bin\Debug\net9.0\BankAccountSample.runtimeconfig.json
+C:\Users\maste\Documents\Concurrency\DataSharingAndSynchronization\BankAccountSample\bin\Debug\net9.0\BankAccountSample.dll
+C:\Users\maste\Documents\Concurrency\DataSharingAndSynchronization\BankAccountSample\bin\Debug\net9.0\BankAccountSample.pdb
+C:\Users\maste\Documents\Concurrency\DataSharingAndSynchronization\BankAccountSample\obj\Debug\net9.0\BankAccountSample.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\maste\Documents\Concurrency\DataSharingAndSynchronization\BankAccountSample\obj\Debug\net9.0\BankAccountSample.AssemblyInfoInputs.cache
+C:\Users\maste\Documents\Concurrency\DataSharingAndSynchronization\BankAccountSample\obj\Debug\net9.0\BankAccountSample.AssemblyInfo.cs
+C:\Users\maste\Documents\Concurrency\DataSharingAndSynchronization\BankAccountSample\obj\Debug\net9.0\BankAccountSample.csproj.CoreCompileInputs.cache
+C:\Users\maste\Documents\Concurrency\DataSharingAndSynchronization\BankAccountSample\obj\Debug\net9.0\BankAccountSample.sourcelink.json
+C:\Users\maste\Documents\Concurrency\DataSharingAndSynchronization\BankAccountSample\obj\Debug\net9.0\BankAccountSample.dll
+C:\Users\maste\Documents\Concurrency\DataSharingAndSynchronization\BankAccountSample\obj\Debug\net9.0\refint\BankAccountSample.dll
+C:\Users\maste\Documents\Concurrency\DataSharingAndSynchronization\BankAccountSample\obj\Debug\net9.0\BankAccountSample.pdb
+C:\Users\maste\Documents\Concurrency\DataSharingAndSynchronization\BankAccountSample\obj\Debug\net9.0\BankAccountSample.genruntimeconfig.cache
+C:\Users\maste\Documents\Concurrency\DataSharingAndSynchronization\BankAccountSample\obj\Debug\net9.0\ref\BankAccountSample.dll
